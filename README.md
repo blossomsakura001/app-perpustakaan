@@ -1,4 +1,5 @@
 Sistem Perpustakaan Digital Kampus
+
 Deskripsi
 
 Aplikasi web untuk mengelola operasional perpustakaan kampus, digunakan oleh petugas/admin untuk mengelola data buku, anggota, dan transaksi peminjaman. Dibangun menggunakan framework Laravel 12.
