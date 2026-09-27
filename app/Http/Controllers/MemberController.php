@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 class MemberController extends Controller
 {
     private array $members = [
-        ['id' => 1, 'nama' => 'Siti Aminah', 'nim' => '2201001', 'email' => 'siti@kampus.ac.id', 'nomor_telepon' => '081234567890', 'alamat' => 'Jl. Merdeka No. 1', 'status' => 'aktif'],
-        ['id' => 2, 'nama' => 'Budi Santoso', 'nim' => '2201002', 'email' => 'budi@kampus.ac.id', 'nomor_telepon' => '081234567891', 'alamat' => 'Jl. Sudirman No. 2', 'status' => 'aktif'],
-        ['id' => 3, 'nama' => 'Rina Wijaya', 'nim' => '2201003', 'email' => 'rina@kampus.ac.id', 'nomor_telepon' => '081234567892', 'alamat' => 'Jl. Diponegoro No. 3', 'status' => 'nonaktif'],
-    ];
+    ['id' => 1, 'nama' => 'Siti Aminah', 'nim' => '2310501001', 'email' => 'siti.aminah@pens.ac.id', 'nomor_telepon' => '081234567890', 'status' => 'aktif'],
+    ['id' => 2, 'nama' => 'Budi Santoso', 'nim' => '2310501002', 'email' => 'budi.santoso@pens.ac.id', 'nomor_telepon' => '081298765432', 'status' => 'aktif'],
+    ['id' => 3, 'nama' => 'Dewi Lestari', 'nim' => '2310501003', 'email' => 'dewi.lestari@pens.ac.id', 'nomor_telepon' => '081211122233', 'status' => 'nonaktif'],
+];
 
     public function index()
     {
